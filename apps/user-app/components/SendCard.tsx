@@ -9,7 +9,7 @@ import { p2pTransfer } from "../app/lib/actions/p2pTransfer"
 export const SendCard = () => {
     const [amount, setAmount] = useState("");
     const [number, setNumber] = useState("");
-    return <div className="h-[90vh]">
+    return <div>
         <Center>
             <Card title="Send">
                 <div className="pt-2 min-w-72">
